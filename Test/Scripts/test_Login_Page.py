@@ -10,7 +10,7 @@ from Src.PageObject.Pages.LoginPage import Login
 import unittest
 from time import sleep
 
-class Stanchart_Login_Page(WebDriverSetup):
+class Stanbic_Login_Page(WebDriverSetup):
     
     def test_login_Page(self):
         driver = self.driver
