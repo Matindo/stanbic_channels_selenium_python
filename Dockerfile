@@ -48,4 +48,4 @@ COPY . .
 EXPOSE 8000
 
 # Run the application.
-CMD python /Test/TestSuite/TestRunner.py
+CMD python /app/Test/TestSuite/TestRunner.py
