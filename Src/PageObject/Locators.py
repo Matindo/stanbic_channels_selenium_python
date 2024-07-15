@@ -9,5 +9,5 @@ class Locator(object):
     
     # Login Page (https://test-portal.ekenya.co.ke/mobile-banking/auth/login)
     user_input = "//input[@id='email']"
-    password_input = "//input[@id='password]"
+    password_input = "//input[@id='password']"
     login_button = "//button[text()='Login']"

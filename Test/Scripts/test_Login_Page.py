@@ -8,6 +8,7 @@ sys.path.append(os.getcwd())
 from Src.TestBase.ChromeWebDriverSetup import WebDriverSetup
 from Src.PageObject.Pages.LoginPage import Login
 import unittest
+from time import sleep
 
 class Stanchart_Login_Page(WebDriverSetup):
     
@@ -24,6 +25,8 @@ class Stanchart_Login_Page(WebDriverSetup):
                 self.assertEqual(driver.title, web_page_title)
         except Exception as error:
             print(error + "Failed Page Load")
+              
+        sleep(5)
         
 if __name__ == '__main__':
     unittest.main()
